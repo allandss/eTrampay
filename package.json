@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "PORT=3000 node server.js",
-    "start": "next start -p 8080",
+    "start": "next start -p 3000",
     "build": "next build",
     "lint": "eslint",
     "test": "jest ./__tests__",
