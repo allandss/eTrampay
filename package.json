@@ -17,12 +17,12 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
-    "dev": "PORT=3030 node server.js",
+    "dev": "PORT=3000 node server.js",
     "start": "next start -p 8080",
     "build": "next build",
     "lint": "eslint",
     "test": "jest ./__tests__",
-    "test:e2e": "start-server-and-test dev http://localhost:3030 e2e",
+    "test:e2e": "start-server-and-test dev http://localhost:3000 e2e",
     "e2e": "NODE_ENV=e2e jest ./e2e"
   },
   "devDependencies": {
