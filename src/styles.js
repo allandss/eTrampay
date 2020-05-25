@@ -476,7 +476,7 @@ export const Banner = styled.div`
   min-height: 550px;
   width: 100%;
   background-size: cover;
-  background-image: url('/static/banner-home-02.png');
+  background-image: url('/static/banner-home.png');
   padding-bottom: 80px;
   background-position: center;
 
