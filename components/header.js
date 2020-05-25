@@ -36,7 +36,7 @@ export default props => {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link href="/">
-            <img src="/static/logo-itrampay.png" alt="Logo" className="logo" />
+            <img src="/static/logo-white.png" alt="Logo" className="logo" />
           </Link>
           <button
             className="navbar-toggler" onClick={toggleNav}>

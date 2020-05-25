@@ -38,7 +38,7 @@ export const Header = styled.header`
     }
 
     .active {
-      color: #ed3833;
+      color: #2270ba;
     }
 
     .active:after {
@@ -55,7 +55,7 @@ export const Header = styled.header`
   p.logout {
     position: absolute;
     right: 0;
-    color: #ed3833;
+    color: #2270ba;
     background: #fff;
     height: 40px;
     margin: 0px;
@@ -99,7 +99,7 @@ export const Header = styled.header`
       right: 0px;
       top: 71px;
       border-radius: 3px;
-      border: 1px solid #ed3833;
+      border: 1px solid #2270ba;
       height: 45px;
       width: 230px;
       padding: 0px 12px;
@@ -136,7 +136,7 @@ export const Header = styled.header`
     .notification {
       .detail {
         position: absolute;
-        background: #ed3833;
+        background: #2270ba;
         width: 20px;
         height: 20px;
         line-height: 17px;
@@ -157,7 +157,7 @@ export const Header = styled.header`
     min-width: 40px;
     width: 100%;
     height: 4px;
-    background: #ed3833;
+    background: #2270ba;
     display: block;
     margin-top: 6px;
     margin-left: auto;
@@ -169,7 +169,7 @@ export const Header = styled.header`
   }
 
   .register {
-    background: #ed3833;
+    background: #2270ba;
     padding: 7px 20px 12px 20px;
     line-height: 23px;
     border-radius: 60px;
@@ -200,7 +200,7 @@ export const Header = styled.header`
   }
 
   .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(237, 56, 51)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(34, 112, 186)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
 `;
 
@@ -227,7 +227,7 @@ export const Home = styled.div`
   }
 
   .about .item h2 span {
-    color: #ed3833;
+    color: #2270ba;
     display: block;
     font-size: 26px;
   }
@@ -240,7 +240,7 @@ export const Home = styled.div`
 
   .about h3 {
     margin-top: 70px;
-    color: #ed3833;
+    color: #2270ba;
     font-weight: 600;
     font-size: 20px;
   }
@@ -257,7 +257,7 @@ export const Home = styled.div`
   }
 
   .about button {
-    background: #ed3833;
+    background: #2270ba;
     padding: 10px 30px;
     border-radius: 30px;
     border: 0px;
@@ -272,7 +272,7 @@ export const Home = styled.div`
 
   .call-to-action-contractor {
     padding: 100px 0px;
-    background: #db342f;
+    background: #2270ba;
     color: #fff;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -302,7 +302,7 @@ export const Home = styled.div`
     width: 140px;
     border-radius: 50px;
     height: 46px;
-    color: #ed3833;
+    color: #2270ba;
     display: block;
     font-weight: 600;
     font-family: Lato;
@@ -340,7 +340,7 @@ export const Home = styled.div`
     width: 140px;
     border-radius: 50px;
     height: 46px;
-    background-color: #ed3833;
+    background-color: #2270ba;
     display: block;
     font-weight: 500;
     font-family: Lato;
@@ -351,9 +351,9 @@ export const Home = styled.div`
 
   .call-to-action-company .btn-register{
     margin-left: 15px;
-    border: 2px solid #ed3833;
+    border: 2px solid #2270ba;
     background: transparent;
-    color: #ed3833a !important;
+    color: #2270baa !important;
     line-height: 30px;
   }
 
@@ -361,7 +361,7 @@ export const Home = styled.div`
     margin-left: 15px;
     border: 2px solid #fff;
     background: white;
-    color: #ed3833;
+    color: #2270ba;
     line-height: 30px;
     margin-left: 0px;
   }
@@ -510,7 +510,7 @@ export const Banner = styled.div`
     font-size: 20px;
     margin-bottom: 30px;
     span{
-      color: #ed3833;
+      color: #2270ba;
       font-weight: 800;
       display: block;
       font-size: 17px;
@@ -528,7 +528,7 @@ export const Banner = styled.div`
     margin-right: auto;
     margin-top: 59px;
     span{
-      color: #ed3833;
+      color: #2270ba;
     }
   }
 `;
@@ -630,7 +630,7 @@ export const Newsletter = styled.div`
 
   h2 {
     font-size: 30px;
-    color: #ed3833;
+    color: #2270ba;
     font-weight: 600;
     margin-bottom: 0px;
   }
@@ -686,7 +686,7 @@ export const PageForm = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    color: #ed3833;
+    color: #2270ba;
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 20px;
@@ -733,7 +733,7 @@ export const PageForm = styled.div`
   }
 
   .box h1 strong {
-    color: #ed3833;
+    color: #2270ba;
   }
 
   .text-info{
@@ -757,7 +757,7 @@ export const PageForm = styled.div`
   }
 
   h5 span {
-    color: #ed3833;
+    color: #2270ba;
     display: inline;
     font-size: 15px;
     cursor: pointer;
@@ -767,12 +767,12 @@ export const PageForm = styled.div`
     float: right;
     font-size: 13px;
     span {
-      color: #ed3833;
+      color: #2270ba;
     }
   }
 
   button.send {
-    background: #ed3833;
+    background: #2270ba;
     color: #fff;
     border: 0px;
     border-radius: 3px;
@@ -797,7 +797,7 @@ export const PageForm = styled.div`
   .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #ff8609;
+    border-color: #2270ba;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(255, 152, 0, 0.16);
   }
@@ -825,7 +825,7 @@ export const PageForm = styled.div`
     margin-top: 0px;
     margin-bottom: 8px;
     font-size: 13px;
-    color: #f00;
+    color:#2270ba;
   }
 
   form .row .col-md-6 > span {
@@ -833,7 +833,7 @@ export const PageForm = styled.div`
     margin-top: 0px;
     margin-bottom: 8px;
     font-size: 13px;
-    color: #f00;
+    color: #2270ba;
   }
 
   .sign-in {
@@ -866,7 +866,7 @@ export const PageForm = styled.div`
     color: #f1853b;
     font-weight: 600;
     float: left;
-    border: 2px solid #ed3833;
+    border: 2px solid #2270ba;
     cursor: pointer;
     text-align: center;
     font-size: 14px;
@@ -889,9 +889,9 @@ export const PageForm = styled.div`
       font-size: 14px;
       margin-right: 20px;
       cursor: pointer;
-      color: #ed3833;
+      color: #2270ba;
       font-weight: 500;
-      border: 2px solid #ed3833;
+      border: 2px solid #2270ba;
     }
   }
 
@@ -901,7 +901,7 @@ export const PageForm = styled.div`
       margin-top: 0px;
       margin-bottom: 8px;
       font-size: 13px;
-      color: #f00;
+      color: #2270ba;
     }
     label {
       padding: 0px 8px;
@@ -914,11 +914,11 @@ export const PageForm = styled.div`
     margin-top: 0px;
     margin-bottom: 8px;
     font-size: 13px;
-    color: #f00;
+    color: #2270ba;
   }
 
   .role .active {
-    background: #ed3833;
+    background: #2270ba;
     color: #fff;
   }
 
@@ -933,7 +933,7 @@ export const PageForm = styled.div`
   .register {
     .box h3 {
       span {
-        color: #ed3833;
+        color: #2270ba;
         display: inline;
         font-size: 24px;
       }
@@ -1050,7 +1050,7 @@ export const Subheader = styled.div`
     color: #fff;
     span {
       font-size: 17px;
-      color: #ed3833;
+      color: #2270ba;
 
       b {
         color: #fff;
@@ -1059,7 +1059,7 @@ export const Subheader = styled.div`
   }
 
   button {
-    background: #ed3833;
+    background: #2270ba;
     color: #fff;
     padding: 10px 20px;
     border: 0px;
@@ -1078,7 +1078,7 @@ export const CompanyContractorInfo = styled.div`
   .signup {
     margin-top: 15px;
     button {
-      background: #ed3833;
+      background: #2270ba;
       padding: 10px 30px;
       border-radius: 30px;
       border: 0px;
@@ -1094,7 +1094,7 @@ export const CompanyContractorInfo = styled.div`
   }
 
   h3{
-    color: #ed3833;
+    color: #2270ba;
     margin-top: 50px;
     font-weight: 600;
   }
@@ -1140,7 +1140,7 @@ export const CompanyContractorInfo = styled.div`
 
   .how-it-slider {
     padding-bottom: 45px;
-    background: #ed3833;
+    background: #2270ba;
     padding-top: 30px;
 
     .slider-item {

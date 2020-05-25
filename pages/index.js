@@ -103,7 +103,7 @@ const Index = () => (
               </div>
             </div>
             <div className="col-md-5">
-              <img className="app" src="/static/mockup-iphone.png" alt="" />
+              <img className="app" src="/static/app.png" alt="" />
             </div>
           </div>
         </div>

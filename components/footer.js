@@ -7,7 +7,7 @@ export default () => (
     <div className="container">
       <div className="row">
         <div className="col-md-3">
-          <img src="/static/logo-itrampay.png" alt="Logo" className="img-fluid logo-footer" />
+          <img src="/static/logo-white.png" alt="Logo" className="img-fluid logo-footer" />
           <p>Uma forma descolada e dinâmica <br/>para encontrar seu emprego.</p>
         </div>
         <div className="col-md-3">
