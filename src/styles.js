@@ -9,6 +9,8 @@ export const Header = styled.header`
   width: 100%;
   z-index: 100;
   border: 1px solid rgba(193, 193, 193, 0.26);
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
 
   @media (max-width: 992px) {
     .container {
