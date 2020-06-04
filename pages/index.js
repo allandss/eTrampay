@@ -19,30 +19,30 @@ const Index = () => (
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3>A ETRAMPAY</h3>
+              <h3>A eTrampay</h3>
               <h5>Apostamos em uma avaliação feita por vídeos e match</h5>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              No cenário digital onde a presença de vídeos é cada vez mais constante, apostamos em uma proposta inovadora (feita por vídeos) onde o usuário se apresenta de forma mais clara e eficiente para sua vaga de emprego. Facilitando ao  empregador maior riqueza de detalhes na sua contratação. Os MATCH's e CHAT's facilitam ainda mais essa seleção.  
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-4">
-              <img className="icon-about" src="/static/icons/video.svg" alt=""/>
+              <img className="icon-about" src="/static/example.jpeg" alt=""/>
               <p>
-              Texto sobre os vídeos, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+              Vídeos exclusivos, rápidos  e práticos, feitos pelos usuários  para garantir o futuro emprego! 
               </p>
             </div>
             <div className="col-md-4">
-            <img className="icon-about" src="/static/icons/human.svg" alt=""/>
+            <img className="icon-about" src="/static/example.jpeg" alt=""/>
               <p>
-              Texto sobre o match, orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+              Através do dispositivo "MATCH" aproximamos ainda mais o  usuário  do empregador, tornando mais acertiva a oportunidade de emprego.
               </p>
             </div>
             <div className="col-md-4">
-            <img className="icon-about" src="/static/icons/chat.svg" alt=""/>
+            <img className="icon-about" src="/static/example.jpeg" alt=""/>
               <p>
-              Texto sobre o chat, orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+              Chat exclusivo para continuidade e comunicação da oportunidade de emprego entre as partes. 
               </p>
             </div>
           </div>
@@ -60,10 +60,9 @@ const Index = () => (
                 Encontre
                 <strong> seu emprego</strong>
               </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <Link href="">
-                <button type="button" className="btn-register"> Criar conta</button>
-              </Link>
+              <p>Por meio de uma busca descolada e prática o eTRAMPAY a otimiza a pesquisa de seu futuro emprego no mundo FITNESS e WELLNESS, possibilitando oferecer seus serviços para o banco de dados das melhores empresas.</p>
+              <input type="text" className="search-input" placeholder="Digite um cargo, área ou empresa" />
+              <button type="button" className="btn-register"> Pesquisar</button>
             </div>
             <div className="col-md-5" />
           </div>
@@ -79,10 +78,10 @@ const Index = () => (
             <div className="col-md-5" />
             <div className="col-md-7">
             <h3>Encontre <strong>canditados</strong></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link href="">
-                <button type="button">Criar conta</button>
-              </Link>
+            <p>A eTrampay criou um algoritmo de busca que torna mais eficiente e prática a pesquisa de novos candidatos para a sua vaga através de ferramentas inovadoras. </p>
+            
+              <button type="button" className="btn-register custom-register"> Pesquisar</button>
+              <input type="text" className="search-input right" placeholder="Digite um cargo, área ou empresa" />
             </div>
           </div>
         </div>
@@ -93,7 +92,7 @@ const Index = () => (
           <div className="row">
             <div className="col-md-7">
               <h2>
-                Baixe agora
+                Em breve
                 <br />
                 <span>disponível nas lojas</span>
               </h2>

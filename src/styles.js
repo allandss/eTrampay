@@ -254,6 +254,7 @@ export const Home = styled.div`
   .about p {
     font-family: Lato;
     margin: 25px 0px;
+    text-align: center;
   }
 
   .about button {
@@ -290,7 +291,7 @@ export const Home = styled.div`
 
   .call-to-action-contractor p {
     font-family: Lato;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .call-to-action-contractor button {
@@ -299,7 +300,7 @@ export const Home = styled.div`
     line-height: 43px;
     text-align: center;
     border: 0px;
-    width: 140px;
+    width: 100px;
     border-radius: 50px;
     height: 46px;
     color: #2270ba;
@@ -337,7 +338,7 @@ export const Home = styled.div`
     line-height: 42px;
     text-align: center;
     border: 0px;
-    width: 140px;
+    width: 100px;
     border-radius: 50px;
     height: 46px;
     background-color: #2270ba;
@@ -350,20 +351,23 @@ export const Home = styled.div`
   }
 
   .call-to-action-company .btn-register{
-    margin-left: 15px;
-    border: 2px solid #2270ba;
-    background: transparent;
-    color: #2270baa !important;
+    border: 2px solid #fff;
+    background: #2370ba;
+    color: #ffffff;
     line-height: 30px;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: -50px;
+    height: 52px;
   }
 
   .call-to-action-contractor .btn-register{
-    margin-left: 15px;
     border: 2px solid #fff;
-    background: white;
-    color: #2270ba;
+    background: #2370ba;
+    color: #ffffff;
     line-height: 30px;
-    margin-left: 0px;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: -50px;
+    height: 52px;
   }
 
   .call-to-action-company button:hover {
@@ -378,7 +382,7 @@ export const Home = styled.div`
 
   .download .app {
     float: left;
-    border-radius: 20px;
+    border-radius: 30px;
     max-width: 230px;
   }
 
@@ -471,9 +475,9 @@ export const Home = styled.div`
 
 export const Banner = styled.div`
   color: #fff;
-  padding-top: 130px;
+  padding-top: 30vh;
   text-align: center;
-  min-height: 550px;
+  min-height: 100vh;
   width: 100%;
   background-size: cover;
   background-image: url('/static/banner-home.png');
@@ -523,12 +527,98 @@ export const Banner = styled.div`
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
-    max-width: 700px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 59px;
     span{
       color: #2270ba;
+    }
+  }
+`;
+
+
+
+export const Form = styled.div`
+  color: #fff;
+  padding-top: 80px;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url('/static/banner-home.png');
+  padding-bottom: 80px;
+  background-position: center;
+
+  img.logo {
+    max-width: 250px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  h2{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: left;
+    span{
+      color: #2270ba;
+    }
+  }
+  h5{
+    text-align: center;
+    font-size: 47px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 59px;
+    span{
+      color: #2270ba;
+    }
+  }
+  .form-control{
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .btn{
+    height: 50px;
+    width: 100%;
+    background: #2370ba;
+    color: #fff;
+    font-size: 17px;
+  }
+
+  .text{
+    h1{
+      font-size: 50px;
+      text-transform: uppercase;
+      margin-top: 50px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    h2{
+      span{
+        color: #2270ba;
+        text-align: center;
+        width: 100%;
+        display: block;
+      }
+    }
+    h6{
+      font-size: 22px;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 400;
     }
   }
 `;

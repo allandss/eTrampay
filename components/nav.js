@@ -25,8 +25,8 @@ export default props => {
       {/* <Link activeClassName="active" href="/login">
         <li className={className}>Log in</li>
       </Link> */}
-      <Link activeClassName="active" href="">
-        <li className="nav-item register">Criar conta</li>
+      <Link activeClassName="active" href="/inscricao">
+        <li className="nav-item register">Inscreva-se</li>
       </Link>
     </ul>
   );
