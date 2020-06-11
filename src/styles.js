@@ -51,6 +51,13 @@ export const Header = styled.header`
     nav ul li {
       border-bottom: 1px solid #000;
     }
+      .navbar-nav{
+      position: absolute;
+      width: 100%;
+      top: 69px;
+      background: #000;
+      padding-bottom: 10px;
+    }
   }
 
 

@@ -6,7 +6,7 @@ import { Header } from '../src/styles';
 
 
 export default props => {
-  const [isNavVisible, setNavVisibility] = useState(false);
+  const [isNavVisible, setNavVisibility] = useState(true);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
@@ -22,8 +22,10 @@ export default props => {
   const handleMediaQueryChange = mediaQuery => {
     if (mediaQuery.matches) {
       setIsSmallScreen(true);
+      setNavVisibility(false)
     } else {
       setIsSmallScreen(false);
+      setNavVisibility(true)
     }
   };
 
@@ -43,7 +45,7 @@ export default props => {
             <span className="navbar-toggler-icon" />
           </button>
           
-          <Nav></Nav>
+          { isNavVisible ? <Nav></Nav> : ''}
 
         </nav>
       </div>
