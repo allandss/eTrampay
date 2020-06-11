@@ -28,19 +28,19 @@ const Index = () => (
           </div>
           <div className="row">
             <div className="col-md-4">
-              <img className="icon-about" src="/static/example.jpeg" alt=""/>
+              <img className="icon-about" src="/static/thumb1.jpg" alt=""/>
               <p>
               Vídeos exclusivos, rápidos  e práticos, feitos pelos usuários  para garantir o futuro emprego! 
               </p>
             </div>
             <div className="col-md-4">
-            <img className="icon-about" src="/static/example.jpeg" alt=""/>
+            <img className="icon-about" src="/static/thumb2.jpg" alt=""/>
               <p>
               Através do dispositivo "MATCH" aproximamos ainda mais o  usuário  do empregador, tornando mais acertiva a oportunidade de emprego.
               </p>
             </div>
             <div className="col-md-4">
-            <img className="icon-about" src="/static/example.jpeg" alt=""/>
+            <img className="icon-about" src="/static/thumb3.jpg" alt=""/>
               <p>
               Chat exclusivo para continuidade e comunicação da oportunidade de emprego entre as partes. 
               </p>
@@ -61,8 +61,8 @@ const Index = () => (
                 <strong> seu emprego</strong>
               </h3>
               <p>Por meio de uma busca descolada e prática o eTRAMPAY a otimiza a pesquisa de seu futuro emprego no mundo FITNESS e WELLNESS, possibilitando oferecer seus serviços para o banco de dados das melhores empresas.</p>
-              <input type="text" className="search-input" placeholder="Digite um cargo, área ou empresa" />
-              <button type="button" className="btn-register"> Pesquisar</button>
+             
+              <Link href="/inscricao"><button type="button" className="btn-register"> Inscreva-se</button></Link>
             </div>
             <div className="col-md-5" />
           </div>
@@ -80,8 +80,7 @@ const Index = () => (
             <h3>Encontre <strong>canditados</strong></h3>
             <p>A eTrampay criou um algoritmo de busca que torna mais eficiente e prática a pesquisa de novos candidatos para a sua vaga através de ferramentas inovadoras. </p>
             
-              <button type="button" className="btn-register custom-register"> Pesquisar</button>
-              <input type="text" className="search-input right" placeholder="Digite um cargo, área ou empresa" />
+            <Link href="/inscricao"><button type="button" className="btn-register"> Inscreva-se</button></Link>
             </div>
           </div>
         </div>
@@ -90,18 +89,7 @@ const Index = () => (
       <div className="download">
         <div className="container">
           <div className="row">
-            <div className="col-md-7">
-              <h2>
-                Em breve
-                <br />
-                <span>disponível nas lojas</span>
-              </h2>
-              <div className="buttons">
-                <img src="/static/app-store.jpg" alt="" />
-                <img src="/static/play-store.jpg" alt="" />
-              </div>
-            </div>
-            <div className="col-md-5">
+            <div className="col-md-12">
               <img className="app" src="/static/app.png" alt="" />
             </div>
           </div>

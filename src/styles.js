@@ -209,7 +209,8 @@ export const Header = styled.header`
 export const Home = styled.div`
   .about {
     background: #f1f1f1;
-    padding-bottom: 50px;
+    padding: 50px 0px 100px;
+    min-height: 100vh;
   }
 
   .about .item {
@@ -353,13 +354,12 @@ export const Home = styled.div`
   }
 
   .call-to-action-company .btn-register{
-    border: 2px solid #fff;
     background: #2370ba;
     color: #ffffff;
     line-height: 30px;
-    border-radius: 0px 50px 50px 0px;
-    margin-left: -50px;
-    height: 52px;
+    border-radius: 30px;
+    height: 48px;
+    width: 135px;
   }
 
   .call-to-action-contractor .btn-register{
@@ -367,9 +367,9 @@ export const Home = styled.div`
     background: #2370ba;
     color: #ffffff;
     line-height: 30px;
-    border-radius: 0px 50px 50px 0px;
-    margin-left: -50px;
-    height: 52px;
+    border-radius: 30px;
+    height: 45px;
+    width: 135px;
   }
 
   .call-to-action-company button:hover {
@@ -383,9 +383,13 @@ export const Home = styled.div`
   }
 
   .download .app {
-    float: left;
+    float: none;
     border-radius: 30px;
-    max-width: 230px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
   }
 
   .download h2 {
@@ -560,14 +564,15 @@ export const Form = styled.div`
   }
 
   h2{
-    font-size: 28px;
+    font-size: 24px;
     color: #fff;
     margin-bottom: 40px;
-    font-weight: 600;
+    font-weight: 300;
     margin-top: 30px;
-    text-align: left;
+    text-align: center;
     span{
       color: #2270ba;
+      font-weight: bold;
     }
   }
   h5{

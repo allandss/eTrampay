@@ -16,16 +16,17 @@ const Index = () => (
     <Form>
       <div className="container">
         <div className="row">
-          <div className="col-md-6"></div>
+        <div className="col-md-3"></div>
           <div className="col-md-6">
             <img src="/static/logo-white.png" alt="" className="logo"/>
-            <h2>Uma forma descolada e prática  de <span>encontrar emprego</span> </h2>
+            <h2>Inscreva-se aqui e saiba mais sobre as opções de emprego no mundo <span> FITNESS</span> e <span>WELNESS</span></h2>
             <input type="text" className="form-control" placeholder="Nome" />
             <input type="text" className="form-control" placeholder="E-mail"/>
             <input type="text" className="form-control" placeholder="Celular"/>
             <Link href="/obrigado"><button className="btn">Quero participar</button></Link>
           </div>
         </div>
+        <div className="col-md-3"></div>
       </div>
     </Form>
   </>
