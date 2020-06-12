@@ -287,6 +287,8 @@ export const Home = styled.div`
     color: #fff;
     background-repeat: no-repeat;
     background-position-x: right;
+    height: 100vh;
+    padding-top: 200px;
   }
 
   .call-to-action-contractor button:hover {
@@ -330,6 +332,8 @@ export const Home = styled.div`
     background-position-x: left;
     color: #000;
     text-align: right;
+    height: 100vh;
+    padding-top: 200px;
   }
 
   .call-to-action-company h3 {
@@ -460,6 +464,14 @@ export const Home = styled.div`
       background-image: none !important;
     }
 
+    .call-to-action-company{
+      height: auto;
+    }
+
+    .call-to-action-contractor{
+      height: auto;
+    }
+
     .download h2 {
       font-size: 30px;
       margin-top: 35px;
@@ -516,6 +528,7 @@ export const Banner = styled.div`
     font-size: 22px;
     margin: 15px 0px 35px 0px;
     font-weight: 100;
+    line-height: 40px;
     span{
       font-weight: 800;
       padding: 4px 10px 8px;
